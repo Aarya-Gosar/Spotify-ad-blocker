@@ -1,5 +1,4 @@
 import spotipy
-from spotipy.oauth2 import SpotifyClientCredentials
 import requests
 import os
 import subprocess
@@ -7,8 +6,8 @@ import time
 
 # Things you have to change
 
-path = ''
-SPTIFY_ACCESS_TOKEN = ''
+path = ''  # Locate the path of spotify.exe on your computer, It should look like : 'C:/Users/<youname>/AppData/Roaming/Spotify/Spotify.exe'
+SPOTIFY_ACCESS_TOKEN = ''  # I have a link on github, click that > Get token > check the topmost box > Copy paste that token here
 
 # ----------------------------------------
 
@@ -45,7 +44,7 @@ def reopen_spotify():
 
 def main():
 	IS_AD = current_track = get_current_track(
-			SPTIFY_ACCESS_TOKEN
+			SPOTIFY_ACCESS_TOKEN
 			)
 
 	if IS_AD:
