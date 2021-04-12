@@ -7,8 +7,8 @@ import time
 
 # Things you have
 
-path = 'C:/Users/kamin/AppData/Roaming/Spotify/Spotify.exe'
-SPTIFY_ACCESS_TOKEN = 'BQANOmqWwehpWo-hMobXNAO05AlHAujBvdHpu-_tKHNKDHS2dRUUUX8mcBLdfcZJBa23xFFhCxtkyCgYsoImYGNPKdrpJBIlMx6SU9w85jf4oj4v_E5ThZNeGE19qIZAQw_XQGC1-YPJhCAM1Fy7ADeVE8VGzSF8xHMeB-wu3RimVjuXB1d2cTqtVjBvCWvQ0ymiiMLX-p8S_f3gTDNNq5E17PlwMpNRP82yQqJaipMnxOEf5HIC_5CYMflUQT6n1KBBdLyqcTBpAlTrPUloozka31fqC0gBxukzxX5U'
+path = ''
+SPTIFY_ACCESS_TOKEN = ''
 
 
 
