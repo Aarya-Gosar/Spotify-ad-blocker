@@ -5,12 +5,12 @@ import os
 import subprocess
 import time
 
-# Things you have
+# Things you have to change
 
 path = ''
 SPTIFY_ACCESS_TOKEN = ''
 
-
+# ----------------------------------------
 
 SPOTIFY_GET_CURRENT_TRACK_URL = 'https://api.spotify.com/v1/me/player/currently-playing'
 
